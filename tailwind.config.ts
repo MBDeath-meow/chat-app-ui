@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--color-primary-hover))",
+          active: "hsl(var(--color-primary-active))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -30,6 +32,7 @@ export default {
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
+          hover: "hsl(var(--danger-hover))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
@@ -38,6 +41,7 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          hover: "hsl(var(--accent-hover))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -56,6 +60,31 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        /* Discord-specific colors */
+        discord: {
+          bg: {
+            primary: "hsl(var(--bg-primary))",
+            secondary: "hsl(var(--bg-secondary))",
+            tertiary: "hsl(var(--bg-tertiary))",
+            elevated: "hsl(var(--bg-elevated))",
+            overlay: "hsl(var(--bg-overlay))",
+          },
+          text: {
+            primary: "hsl(var(--text-primary))",
+            secondary: "hsl(var(--text-secondary))",
+            muted: "hsl(var(--text-muted))",
+            inverse: "hsl(var(--text-inverse))",
+          },
+          status: {
+            online: "hsl(var(--status-online))",
+            idle: "hsl(var(--status-idle))",
+            dnd: "hsl(var(--status-dnd))",
+            offline: "hsl(var(--status-offline))",
+          },
+          success: "hsl(var(--success))",
+          warning: "hsl(var(--warning))",
+          danger: "hsl(var(--danger))",
         },
       },
       borderRadius: {
